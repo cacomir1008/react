@@ -9,6 +9,8 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <Button />
+    <Button />
+    <Button />
   </React.StrictMode>,
   document.getElementById('root')
 );
