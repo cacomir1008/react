@@ -1,0 +1,55 @@
+.container{
+    border:solid 2px pink;
+    border-radius:20px;
+    padding:8px;
+    margin:8px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.title{
+    margin:0 auto;
+    width:500px;
+    color:skyblue;
+    &:hover{
+        background-color:pink;
+        color:white;
+        cursor:pointer;
+    }
+}
+
+.page1{
+    margin:0 auto;
+    width:500px;
+    color:pink;
+    &:hover{
+        background-color:pink;
+        color:white;
+        cursor:pointer;
+    }
+}
+
+.page2{
+    margin:0 auto;
+    width:500px;
+    color:#abedd8;
+    &:hover{
+        background-color:pink;
+        color:white;
+        cursor:pointer;
+    }
+}
+
+.button{
+    background-color:#abedd8;
+    border:none;
+    padding:8px;
+    border-radius:8px;
+    // sassの技法である擬似要素も使える
+    &:hover{
+        background-color:pink;
+        color:white;
+        cursor:pointer;
+    }
+}
