@@ -2,6 +2,9 @@
   "name": "udemy2-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.16.0"
+  },
   "scripts": {
     "heroku-postbuild": "cd front && yarn install && yarn run build:production"
   },
